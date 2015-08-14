@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings, including authentication.</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN (OpenVPNTest)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.test.openvpn.vpn</string>
+			<key>PayloadOrganization</key>
+			<string>openvpntest</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>9C3643DB-0F2A-4E5D-8011-923651196174</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict/>
+			<key>UserDefinedName</key>
+			<string>OpenVPNTest</string>
+			<key>VPN</key>
+			<dict>
+				<key>AuthName</key>
+				<string>OpenVPNTest</string>
+				<key>AuthenticationMethod</key>
+				<string>Certificate</string>
+				<key>OnDemandEnabled</key>
+				<integer>1</integer>
+				<key>OnDemandMatchDomainsAlways</key>
+				<array>
+					<string>*</string>
+				</array>
+				<key>OnDemandMatchDomainsNever</key>
+				<array/>
+				<key>OnDemandMatchDomainsOnRetry</key>
+				<array/>
+				<key>PayloadCertificateUUID</key>
+				<string>989CB85F-30FE-4B31-B96F-D73232136F51</string>
+				<key>RemoteAddress</key>
+				<string>vpn278233445.opengw.net</string>
+			</dict>
+			<key>VPNSubType</key>
+			<string>net.openvpn.OpenVPN-Connect.vpnplugin</string>
+			<key>VPNType</key>
+			<string>VPN</string>
+			<key>VendorConfig</key>
+			<dict>
+				<key>auth</key>
+				<string>sha1</string>
+				<key>ca</key>
+				<string>-----BEGIN CERTIFICATE-----\n
+MIIDHDCCAgSgAwIBAgIFIGVpEXEwDQYJKoZIhvcNAQELBQAwRTEcMBoGA1UEAwwT
+cml3OTE0cGd5a3NwNjQyLm9yZzEYMBYGA1UECgwPZWZvaDVoIHdvazY0ODJzMQsw
+CQYDVQQGEwJVUzAeFw0xNTA1MTUxNzU3MTNaFw0yMTAyMTUxNzU3MTNaMEUxHDAa
+BgNVBAMME3JpdzkxNHBneWtzcDY0Mi5vcmcxGDAWBgNVBAoMD2Vmb2g1aCB3b2s2
+NDgyczELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCeOibfxsMhxsSJpzCXrnYKKSq/ibG0Yr/gw7oUWoVsLqcmRoxW3zDJ7tFE+mOB
+c1PG8J7yYNUukY2oreGrxVpwzLzmexRliNcFiaL1V8O5ybTnoJ3yeokxbyMJarWL
+PA7w934rKZ40TZark2RPxIjhNt5DJ3UX99b6M2kW3uehujkZiJaG7oPH6beDW1jO
+URFW0tfNjL3NnY4ZA1h7lPqtyZdbpCDUa/U6IjSFAtwIqyQTzBtDJcERvvrg4ygE
+8trLIeiljo0P+AvKBCYZm5CjpvLFpZepvAEsXdPlRENAnhznLUyz+1dJeNHYeugO
+mxS5FbWQ8udmw0/PJl12UZ6vAgMBAAGjEzARMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggEBAFg8umXZsniIkPfJ/gvUubat+tVR3F37djeDAw1zEzdq
+3818k8qUtXHQ5gvZvOsm3dUYWEclcqJTGbpv5kD+ijrP78ImzNjvKNJbC0vtW7lK
+IFvsxQhBFS1HSf7wS5bMuJ+XG9JwKhpf4BmV1v3wcG9eX8mOr+QU9fIuPrO1Sm2g
+93ci3qi7S08FGFw488Vll7pw4I7sre2hfxQEunJfunNsrFzP3Oo1WittdNGqM3wt
+bgJD+BZWt+M6PNmC+kz4Ch7l7+aeHoRnn2Rgveu/OvGklfhomZ6ey3o5r1fb5jxH
+cw1yGHfTWuBqQNRCOwFlFfBsOl9XdiChXHa6CAedla0=
+-----END CERTIFICATE-----</string>
+				<key>cipher</key>
+				<string>AES-128-CBC</string>
+				<key>client</key>
+				<string>value</string>
+				<key>dev</key>
+				<string>tun</string>
+				<key>nobind</key>
+				<string>value</string>
+				<key>persist-key</key>
+				<string>value</string>
+				<key>proto</key>
+				<string>tcp</string>
+				<key>remote</key>
+				<string>vpn278233445.opengw.net 995</string>
+				<key>resolv-retry</key>
+				<string>infinite</string>
+				<key>verb</key>
+				<string>3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Password</key>
+			<string>123456</string>
+			<key>PayloadCertificateFileName</key>
+			<string>clientp12.p12</string>
+			<key>PayloadContent</key>
+			<data>
+			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
+			</data>
+			<key>PayloadDescription</key>
+			<string>Provides device authentication (certificate or identity).</string>
+			<key>PayloadDisplayName</key>
+			<string>clientp12.p12</string>
+			<key>PayloadIdentifier</key>
+			<string>com.test.openvpn.credential</string>
+			<key>PayloadOrganization</key>
+			<string>openvpntest</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs12</string>
+			<key>PayloadUUID</key>
+			<string>989CB85F-30FE-4B31-B96F-D73232136F51</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Test</string>
+	<key>PayloadDisplayName</key>
+	<string>OpenVPNTest</string>
+	<key>PayloadIdentifier</key>
+	<string>com.test.openvpn</string>
+	<key>PayloadOrganization</key>
+	<string>openvpntest</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B1A55A6A-9878-4E62-B17B-81FD441D7FD5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
